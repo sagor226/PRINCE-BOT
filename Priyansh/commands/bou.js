@@ -1,5 +1,5 @@
 module.exports.config = {
-    name: "gf",
+    name: "bou",
     version: "7.3.1",
     hasPermssion: 0,
     credits: "𝐂𝐘𝐁𝐄𝐑 ☢️_𖣘 -𝐁𝐎𝐓 ⚠️ 𝑻𝑬𝑨𝑴_ ☢️", 
