@@ -38,28 +38,28 @@ ________________________\n\n𝐓𝐨 𝐯𝐢𝐞𝐰 𝐚𝐧𝐲 𝐜𝐨𝐦�
 
 ${global.config.PREFIX}Help\n${global.config.PREFIX}Info\n${global.config.PREFIX}Admin
 ________________________\n★যে্ঁকো্ঁনো্ঁ অ্ঁভি্ঁযো্ঁগ্ঁ অ্ঁথ্ঁবা্ৃ হে্ঁল্প্ঁ এ্ঁর্ঁ জ্ঁন্য্ঁ এ্ঁড্ঁমি্ঁন্ঁ 𝗙𝗔𝗛𝗜𝗠 কে্ঁ ন্ঁক্ঁ ক্ঁর্ঁতে্ঁ পা্ঁরে্ঁন্ঁ★\n𝐌𝐞𝐬𝐬𝐞𝐠𝐞𝐫:  https://m.me/hackar.vaiya\n𝐈𝐦𝐨 𝐎𝐫 𝐖𝐡𝐚𝐭𝐬𝐀𝐩𝐩: 01771240377
-\n⋆✦⎯⎯⎯⎯⎯⎯⎯⎯✦⋆\n𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➢ 𝗙𝗔𝗛𝗜𝗠 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧`, attachment: fs.createReadStream(__dirname + "/Nazrul/join.jpeg")} ,threadID));
-  }
-  else {
-    try {
-      const { createReadStream, existsSync, mkdirSync, readdirSync } = global.nodemodule["fs-extra"];
-      let { threadName, participantIDs } = await api.getThreadInfo(threadID);
-
-      const threadData = global.data.threadData.get(parseInt(threadID)) || {};
-      const path = join(__dirname, "Nazrul", "font");
-      const pathGif = join(path, `${threadID}.gif`);
-
-      var mentions = [], nameArray = [], memLength = [], i = 0;
-
-      for (id in event.logMessageData.addedParticipants) {
-        const userName = event.logMessageData.addedParticipants[id].fullName;
-        nameArray.push(userName);
-        mentions.push({ tag: userName, id });
-        memLength.push(participantIDs.length - i++);
-      }
-      memLength.sort((a, b) => a - b);
-
-      (typeof threadData.customJoin == "undefined") ? msg = "╔════•| ✿ |•════╗\nআ্ঁস্ঁসা্ঁলা্ঁমু্ঁ💚আ্ঁলা্ঁই্ঁকু্ঁম্ঁ\n╚════•| ✿ |•════╝\nহা্ঁসি্ঁ ম্ঁজা্ঁ ঠা্ঁট্টা্ঁয়্ঁ ব্ঁন্ধু্ঁত্ব্ঁ হ্ঁবে্ঁ চি্ঁর্ঁকা্ঁলী্ঁন্ঁ বে্ঁচে্ঁ থা্ঁকু্ঁক্ঁ ব্ঁন্ধু্ঁত্ব্ঁ\nভা্ঁলো্ঁবা্ঁসা্ঁর্ঁ স্ঁম্প্ঁর্কে্ঁ আ্ঁজী্ঁব্ঁন্ঁ\n\n {name} \n\nআ্ঁপ্ঁনি্ঁ এ্ঁই্ঁ গ্রু্ঁফে্ঁর্ঁ {soThanhVien} না্ঁম্বা্ঁর্ঁ মে্ঁম্বা্ঁর্ঁ\n\n {threadName}\n\n🥀 গ্রুঁপেঁরঁ পঁক্ষঁ থেঁকেঁ আঁপঁনাঁকেঁ স্বাঁগঁতঁমঁ♥\n\n🥰🥀ᏔᎬᏞᏟϴᎷᎬ 🥀🥰 \n    ┌────♣─────┐\n ─꯭─⃝‌‌𝐂𝐲𝐛𝐞𝐫 𝐁𝐨𝐭 𝐑𝐢𝐬𝐮\n└────♣─────┘\n\n⋆✦⎯⎯⎯⎯⎯⎯⎯⎯✦⋆\n𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➢ 𝗙𝗔𝗛𝗜𝗠 𝗔𝗛𝗠𝗘𝗗" : msg = threadData.customJoin;
+\n⋆✦⎯⎯⎯⎯⎯⎯⎯⎯✦⋆\n𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➢ 𝗙𝗔𝗛𝗜𝗠 𝗖𝗛𝗔𝗧 𝗕𝗢𝗧`, attachment: fs.createReadStream(__dirname + "/cache/botj.mp4")} ,threadID));
+    }
+    else {
+        try {
+            const { createReadStream, existsSync, mkdirSync, readdirSync } = global.nodemodule["fs-extra"];
+            let { threadName, participantIDs } = await api.getThreadInfo(threadID);
+ 
+            const threadData = global.data.threadData.get(parseInt(threadID)) || {};
+            const path = join(__dirname, "cache", "joinvideo");
+            const pathGif = join(path, `${threadID}.video`);
+ 
+            var mentions = [], nameArray = [], memLength = [], i = 0;
+            
+            for (id in event.logMessageData.addedParticipants) {
+                const userName = event.logMessageData.addedParticipants[id].fullName;
+                nameArray.push(userName);
+                mentions.push({ tag: userName, id });
+                memLength.push(participantIDs.length - i++);
+            }
+            memLength.sort((a, b) => a - b);
+            
+            (typeof threadData.customJoin == "undefined") ? msg = "╔════•| ✿ |•════╗\nআ্ঁস্ঁসা্ঁলা্ঁমু্ঁ💚আ্ঁলা্ঁই্ঁকু্ঁম্ঁ\n╚════•| ✿ |•════╝\nহা্ঁসি্ঁ ম্ঁজা্ঁ ঠা্ঁট্টা্ঁয়্ঁ ব্ঁন্ধু্ঁত্ব্ঁ হ্ঁবে্ঁ চি্ঁর্ঁকা্ঁলী্ঁন্ঁ বে্ঁচে্ঁ থা্ঁকু্ঁক্ঁ ব্ঁন্ধু্ঁত্ব্ঁ\nভা্ঁলো্ঁবা্ঁসা্ঁর্ঁ স্ঁম্প্ঁর্কে্ঁ আ্ঁজী্ঁব্ঁন্ঁ\n\n {name} \n\nআ্ঁপ্ঁনি্ঁ এ্ঁই্ঁ গ্রু্ঁফে্ঁর্ঁ {soThanhVien} না্ঁম্বা্ঁর্ঁ মে্ঁম্বা্ঁর্ঁ\n\n {threadName}\n\n🥀 গ্রুঁপেঁরঁ পঁক্ষঁ থেঁকেঁ আঁপঁনাঁকেঁ স্বাঁগঁতঁমঁ♥\n\n🥰🥀ᏔᎬᏞᏟϴᎷᎬ 🥀🥰 \n    ┌────♣─────┐\n ─꯭─⃝‌‌𝐂𝐲𝐛𝐞𝐫 𝐁𝐨𝐭 𝐑𝐢𝐬𝐮\n└────♣─────┘\n\n⋆✦⎯⎯⎯⎯⎯⎯⎯⎯✦⋆\n𝐂𝐫𝐞𝐚𝐭𝐨𝐫 ➢ 𝗙𝗔𝗛𝗜𝗠 𝗔𝗛𝗠𝗘𝗗" : msg = threadData.customJoin;
       msg = msg
       .replace(/\{name}/g, nameArray.join(', '))
       .replace(/\{type}/g, (memLength.length > 1) ?  'You' : 'Friend')
