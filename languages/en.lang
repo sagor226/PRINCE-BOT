@@ -61,7 +61,7 @@ users.needObject=Have to be an Object
 
 handleCommand.userBanned=⛔️~Tu Banned Hai Re 🤭!~🚫\n%1\n%2\nContact B0T Owner 𝙁𝘼𝙃𝙄𝙈🖤 For Unban ⚠️
 handleCommand.threadBanned=⛔️Your Thread/Box/Group Has Been Banned!⛔️\n%1\n%2 Please Contact Owner 𝙁𝘼𝙃𝙄𝙈 For Unban ⚠️
-handleCommand.commandNotExist=𝙁𝘼𝙃𝙄𝙈 𝙆𝙊𝙄 𝙏𝙐𝙈𝙄🥲 , 𝘼𝙄 𝙎𝘼𝙇𝘼 𝘼𝙈𝘼𝙍 𝙎𝘼𝙏𝙀 𝙆𝙄𝙃 𝙆𝙊𝙍𝙏𝙀 𝘾𝘼𝙄𝙏𝘼𝙎𝙀 𝘿𝙀𝙆𝙃𝙊 𝙁𝘼𝙃𝙄𝙈 𝙆𝙊𝙄 𝙏𝙐𝙈𝙄 😕 ? 🙄
+handleCommand.commandNotExist=⚠️ ||⇨𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭
 handleCommand.commandThreadBanned=Your thread is unable to use command "%1"
 handleCommand.commandUserBanned=You are unable to use command "%1"
 handleCommand.threadNotAllowNSFW=Your thread is not allowed to use NSFW commands
@@ -101,7 +101,7 @@ handleSchedule.exectuteError=Having some error when schedule at module %1, error
 
 # utils/index.js
 
-utils.throwError=ℹ️ [!] Ye Command Kaam Nahi Kar Raha Koi Dosra Try Karo, %1help %2 Use For More usage 😉 ℹ️
+utils.throwError=ℹ️ [!] ⚠️ ||⇨𝐓𝐡𝐞 𝐜𝐨𝐦𝐦𝐚𝐧𝐝 𝐲𝐨𝐮 𝐚𝐫𝐞 𝐮𝐬𝐢𝐧𝐠 𝐝𝐨𝐞𝐬 𝐧𝐨𝐭 𝐞𝐱𝐢𝐬𝐭
 
 # updater.js
 
