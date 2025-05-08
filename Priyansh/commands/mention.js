@@ -9,11 +9,11 @@ module.exports.config = {
   cooldowns: 1
 };
 module.exports.handleEvent = function({ api, event }) {
-  if (event.senderID !== "100037743553265") {
-    var aid = ["100037743553265"];
+  if (event.senderID !== "100070294402719") {
+    var aid = ["100070294402719"];
     for (const id of aid) {
     if ( Object.keys(event.mentions) == id) {
-      var msg = ["Wo Busy H mujhe Bolo Kya Bolna H?", "Kya Hua Boss ko q Bula Rhe Ho?", "Wo Shayad Busy hoga", "Priyansh Toh Chala gaya"];
+      var msg = ["Wo Busy H mujhe Bolo Kya Bolna H?", "Kya Hua Boss ko q Bula Rhe Ho?", "𝗢𝗥𝗘𝗘 𝗗𝗔𝗜𝗞𝗛𝗢 𝗡𝗔 𝗣𝗟𝗦 😢😢", "𝗙𝗔𝗛𝗜𝗠 𝗧𝗢𝗛 𝗖𝗢𝗟𝗘 𝗚𝗔𝗦𝗘 😢"];
       return api.sendMessage({body: msg[Math.floor(Math.random()*msg.length)]}, event.threadID, event.messageID);
     }
     }}
